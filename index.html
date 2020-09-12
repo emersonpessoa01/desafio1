@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User search</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style1.css" />
+    <link rel="stylesheet" href="./css/style2.css" />
+  </head>
+  <body>
+    <div class="header text-white shadow p-2">
+      <div class="text-center border-bottom p-2 mb-2 text-dark">
+        <a href="https://github.com/emersonpessoa01/igti-bootcamp-fullstack/tree/master/modulo01/desafio01" target="_blank"
+          ><img class="icon" src="img/github.png"
+        /></a>
+        <a href="https://www.linkedin.com/in/emersonpessoa/" target="_blank"
+          ><img class="icon" src="img/linkedin.png"
+        /></a>
+      </div>
+      <h1 class="text-center">Bootcamp Full Stack</h1>
+      <h2 class="text-center">User search</h2>
+    </div>
+
+    <div class="container">
+      <div class="form">
+        <input
+          type="text"
+          class="form-control"
+          name="name"
+          id="name"
+          placeholder="Digite nome"
+        />
+      </div>
+
+      <div class="results">
+        <button class="btn btn-sm" id="showStatistics">
+          Mostrar Estatísticas
+        </button>
+
+        <div class="p-2" id="statistics">
+          <div class="row justify-content-center">
+            <div class="card col-sm-2 text-center">
+              <div class="number" id="totalFilteredUsers">0</div>
+              <div class="h3">Total de Usuários filtrados</div>
+            </div>
+            <div class="card col-sm-2 text-center">
+              <div class="number" id="totalFilteredMale">0</div>
+              <div class="h3">Sexo masculino</div>
+            </div>
+            <div class="card col-sm-2 text-center">
+              <div class="number" id="totalFilteredFemale">0</div>
+              <div class="h3">Sexo feminino</div>
+            </div>
+            <div class="card col-sm-2 text-center">
+              <div class="number" id="ageSum">0</div>
+              <div class="h3">Soma das idades</div>
+            </div>
+            <div class="card col-sm-2 text-center">
+              <div class="number" id="ageAverage">0</div>
+              <div class="h3">Média das idades</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="list">
+          <div id="listInfo"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

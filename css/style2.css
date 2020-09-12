@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Righteous&display=swap');
+
+body {
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+.form {
+  display: flex;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  color: rgb(42, 155, 89);
+}
+
+.icon {
+  height: 35px;
+  width: 35px;;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* .github-img {
+  height: 60px;
+} */
+
+.card {
+  width: 18rem;
+  margin: 5px;
+  margin-top:10px
+}
+
+.cardfooter {
+  color: #aaa;
+}
+
+.card-title {
+  color: rgb(42, 155, 89);
+}
+
+/* .card-link, */
+/* .number, */
+.name {
+  color: rgb(42, 155, 89);
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+
+}
+
+.number {
+  color: rgb(42, 155, 89);
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+.h3{
+  color: rgb(42, 155, 89);
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+}
+
+.header {
+  /* background-color: rgb(42, 155, 89); */
+  background-color: rgb(42, 155, 89);
+  font-family: Righteous;
+  max-height: 300px;
+}
+
+.btn-prim {
+  background-color: rgb(42, 155, 89);
+  color: white;
+}
+.btn{
+  color: rgb(42, 155, 89);
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+}
+

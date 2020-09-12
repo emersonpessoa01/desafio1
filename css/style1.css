@@ -1,0 +1,33 @@
+body {
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
+.form {
+  display: flex;
+  
+}
+
+.form-control {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  
+}
+
+.container {
+  max-width: 800px;
+}
+
+.icon {
+  width: 50px;
+}
+
